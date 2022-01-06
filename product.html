@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="product.css">
+    <title>Document</title>
+</head>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+
+<body>
+    <div class="navbar">
+
+        <ul>
+
+
+
+            <li>
+                <a href="index.html" id="logo"><img src="https://www.pulseplus.in/content/images/icons/logo-pulse-pharmacy-trans.png" /></a>
+            </li>
+            <li>
+                <ul>
+                    <li><a id="loc" href="#">Location</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="Login.html">Login /</a></li>
+                    <li><a href="SignUp.html">Signup</a></li>
+                    <li id="cart">
+                        <a href="cart.html"> <img class="cart-logo" src="https://www.pulseplus.in/content/images/icons/cart.svg" /></a>
+                    </li>
+                </ul>
+            </li>
+
+
+
+        </ul>
+    </div>
+    <div id="location">
+        <div>
+            <button id="hide">x</button>
+        </div>
+        <input type="text" placeholder="Enter Your City Name">
+        <select id="select-state">
+                <option>Location</option>
+                <option>New Delhi</option>
+                <option>Mumbai</option>
+                <option>Bengaluru</option>
+                <option>Kolkata</option>
+                <option>Chennai</option>
+                <option>Noida</option>
+                <option>Pune</option>
+                <option>Hyderabad</option>
+            </select>
+    </div>
+
+
+
+
+    <div id="space"></div>
+
+
+    <div id="product-list"></div>
+
+    <script src="product.js"></script>
+</body>
+
+</html>

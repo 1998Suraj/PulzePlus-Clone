@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Login.css">
+
+    <title>Document</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+
+
+
+<body>
+    <div id="container">
+        <div class="logo">
+            <button onclick="page_Redirect()"><img src="https://www.pulseplus.in/content/images/icons/logo-pulse-pharmacy.png" alt=""></button>
+        </div>
+
+        <div>
+            <h2>Login / Sign in</h2>
+        </div>
+        <form onsubmit="login(event)" id="form">
+            <input type="email" id="email" placeholder="Enter email" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <input type="submit" id="Login" value="Login">
+        </form>
+    </div>
+
+    <script src="Login.js"></script>
+</body>
+
+</html>
